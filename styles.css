@@ -9,7 +9,7 @@
   --paper-hi:#faf4e2;
   --cream:#e9dcc0;
   --ink:#2f2618;
-  --muted:#7a6a4e;
+  --muted:#6b5b3f;
   --amber:#c2621f;
   --amber-hi:#e9a13c;
   --green:#3f6d3a;
@@ -66,7 +66,6 @@ footer{margin-top:24px;border-top:2px solid var(--ink);background:var(--cream)}
 }
 .ascii .a{color:var(--amber)}
 .ascii .g{color:var(--green)}
-.ascii .gd{color:var(--green-hi)}
 .blink{animation:blink 1s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
 
@@ -139,7 +138,6 @@ h2{
 .doc ul{margin:0 0 16px 1.4em;font-size:.93rem}
 .doc li{margin-bottom:8px}
 .doc li strong{color:var(--ink)}
-.doc .short{}
 .doc .doc-box{border:2px solid var(--ink);background:var(--cream);padding:18px 22px;margin-bottom:18px;box-shadow:5px 5px 0 var(--shadow)}
 
 /* ---------- gota feature grid ---------- */
