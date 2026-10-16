@@ -66,6 +66,7 @@ footer{margin-top:24px;border-top:2px solid var(--ink);background:var(--cream)}
 }
 .ascii .a{color:var(--amber)}
 .ascii .g{color:var(--green)}
+.ascii .gd{color:var(--muted)}
 .blink{animation:blink 1s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
 
@@ -156,7 +157,7 @@ h2{
 @media(max-width:600px){
   .nav{font-size:1.12rem;padding:11px 18px}
   .nav .right{gap:16px}
-  .ascii{font-size:8.5px}
+  .ascii{font-size:7.5px}
   .cards,.features{grid-template-columns:1fr}
   main{padding:0 6px}
 }
