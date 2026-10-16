@@ -4,52 +4,106 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gotta — your notebook, superpowered</title>
-<meta name="description" content="Gotta — a calm all-purpose tracker with a journal soul. Lists, habits, time, and memories in one place. Local-first, no account.">
+<meta name="description" content="Gotta — a calm all-purpose tracker with a journal soul. Lists, habits, time and memories in one place. Local-first, no account.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&family=IBM+Plex+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../styles.css">
 </head>
 <body>
-<header class="site-nav">
-  <nav>
-    <a href="/">imbailn</a>
-    <a href="/khaos/">KHA OS</a>
-  </nav>
+<header>
+  <div class="nav">
+    <a class="logo" href="/">imbailn<span>_</span></a>
+    <div class="right">
+      <a href="/khaos/">kha.os</a>
+      <a href="/khaos/gotta/"><span style="color:var(--amber)">gotta</span></a>
+    </div>
+  </div>
 </header>
 
-<main>
+<main class="wrap">
   <section class="hero">
-    <h1>Gotta — your notebook, superpowered.</h1>
+<pre class="ascii" aria-label="A smartphone in ASCII art">
+     <span class="a">┌</span>──────────────────────────────<span class="a">┐</span>
+     <span class="a">│</span>  <span class="g">┌</span>──────────────────────────<span class="g">┐</span>  <span class="a">│</span>
+     <span class="a">│</span>  <span class="g">│</span>   ▄▄▄    ▄▄▄    ▄▄▄    <span class="g">│</span>  <span class="a">│</span>
+     <span class="a">│</span>  <span class="g">│</span>   <span class="a">g o t t a</span>          <span class="g">│</span>  <span class="a">│</span>
+     <span class="a">│</span>  <span class="g">│</span>   <span class="a">notebook</span> <span class="a">·</span> calm   <span class="g">│</span>  <span class="a">│</span>
+     <span class="a">│</span>  <span class="g">│</span>   <span class="g">▓▓</span>  <span class="g">▓▓</span>  <span class="g">▓▓</span>  <span class="g">▓▓</span>   <span class="g">│</span>  <span class="a">│</span>
+     <span class="a">│</span>  <span class="g">└</span>──────────────────────<span class="g">┘</span>  <span class="a">│</span>
+     <span class="a">│</span>           <span class="a">○</span>            <span class="a">│</span>
+     <span class="a">└</span>──────────────────────────────<span class="a">┘</span> <span class="blink">▌</span>
+</pre>
+    <div class="think">▚ your notebook, superpowered · a calm all-purpose tracker with a <span class="g">journal soul</span></div>
+    <h1>gotta<span>_</span></h1>
     <p class="lede">One calm place for the stuff you want to keep up with — and the days you want to remember.</p>
   </section>
 
-  <section>
-    <h2>What it does</h2>
-    <ul>
-      <li><strong>Trackers</strong> — lists for anything: groceries, books to read, birthdays, party planning, wishlists. Prices, quantities, dates, reminders — whatever each list needs.</li>
-      <li><strong>Habits</strong> — build consistency with a calm monthly journal. No guilt streaks; just a record of your days.</li>
-      <li><strong>Journal</strong> — a day-by-day timeline of what you did, what you logged, and what you wrote. Backfill past days freely.</li>
-      <li><strong>Time</strong> — log what you spent your day on, simply. Labels and minutes, no timers fighting for your attention.</li>
-      <li><strong>Reminders</strong> — optional, on your schedule. Quiet hours respected. You stay in control.</li>
-    </ul>
-  </section>
+  <div class="rule"></div>
 
-  <section>
-    <h2>The way it's built</h2>
-    <ul>
-      <li><strong>Local-first</strong> — everything lives on your device. No account, no cloud, no tracking. Export your data anytime as JSON.</li>
-      <li><strong>Calm by default</strong> — no manipulative streaks, no dark patterns, no noise.</li>
-      <li><strong>Private</strong> — no data leaves your phone except your optional purchase transaction.</li>
-    </ul>
-  </section>
+  <div class="intro">
+    <div class="file">WHAT_IT_DOES.txt</div>
+    <p>Gotta is a <strong>notebook, superpowered</strong>. Lists, habits, time and memories — one calm place. No account, no noise.</p>
+  </div>
 
-  <section>
-    <h2>Availability</h2>
-    <p><em>Coming to the App Store and Google Play — October 2026.</em></p>
-    <p><a href="/khaos/gotta/privacy.html">Privacy Policy</a> · Questions: <a href="mailto:support@imbailn.dev">support@imbailn.dev</a></p>
-  </section>
+  <h2>features</h2>
+  <p class="hint">$ ./gotta --list</p>
+  <div class="features">
+    <div class="feature">
+      <div class="f-head"><span class="mark">▸</span> trackers</div>
+      <p>Lists for anything: groceries, books to read, birthdays, party planning, wishlists. Prices, quantities, dates, reminders — whatever each list needs.</p>
+    </div>
+    <div class="feature">
+      <div class="f-head"><span class="mark">▸</span> habits</div>
+      <p>Build consistency with a calm monthly journal. No guilt streaks; just a record of your days.</p>
+    </div>
+    <div class="feature">
+      <div class="f-head"><span class="mark">▸</span> journal</div>
+      <p>A day-by-day timeline of what you did, what you logged, and what you wrote. Backfill past days freely.</p>
+    </div>
+    <div class="feature">
+      <div class="f-head"><span class="mark">▸</span> time</div>
+      <p>Log what you spent your day on, simply. Labels and minutes, no timers fighting for your attention.</p>
+    </div>
+    <div class="feature">
+      <div class="f-head"><span class="mark">▸</span> reminders</div>
+      <p>Optional, on your schedule. Quiet hours respected. You stay in control.</p>
+    </div>
+  </div>
+
+  <h2>the way it's built</h2>
+  <p class="hint">$ ./gotta --philosophy</p>
+  <div class="pillbox">
+    <span class="pill">local-first</span>
+    <span class="pill">calm by default</span>
+    <span class="pill">private</span>
+    <span class="pill">no account</span>
+    <span class="pill">export anytime</span>
+  </div>
+  <div class="cards" style="grid-template-columns:1fr">
+    <div class="card">
+      <div class="tag">build notes</div>
+      <h3>how it's made</h3>
+      <p><strong>Local-first</strong> — everything lives on your device. No account, no cloud, no tracking. Export your data anytime as JSON.</p>
+      <p style="margin-top:10px"><strong>Calm by default</strong> — no manipulative streaks, no dark patterns, no noise.</p>
+      <p style="margin-top:10px"><strong>Private</strong> — no data leaves your phone except your optional purchase transaction.</p>
+    </div>
+  </div>
+
+  <h2>availability</h2>
+  <p class="hint">$ ./gotta --when</p>
+  <div class="intro" style="margin-bottom:10px">
+    <p><em>Coming to the App Store and Google Play — <strong>October 2026</strong>.</em></p>
+    <p style="margin-top:12px"><a href="/khaos/gotta/privacy.html">privacy policy</a> · questions: <a href="mailto:support@imbailn.dev">support@imbailn.dev</a></p>
+  </div>
 </main>
 
 <footer>
-  <p>© KHA OS LLC · <a href="/khaos/">KHA OS</a> · <a href="mailto:support@imbailn.dev">support@imbailn.dev</a></p>
+  <div class="foot">
+    <span>© KHA OS LLC</span>
+    <span><a href="mailto:support@imbailn.dev">support@imbailn.dev</a></span>
+    <span><a href="/khaos/">kha.os</a> · <a href="/khaos/gotta/">gotta</a></span>
+  </div>
 </footer>
 </body>
 </html>

@@ -5,42 +5,86 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KHA OS — my operating system</title>
 <meta name="description" content="KHA OS — the label under which Nabil (imbailn) publishes software. Calm by default, local-first, small and thoughtful.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&family=IBM+Plex+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-<header class="site-nav">
-  <nav>
-    <a href="/">imbailn</a>
-    <a href="/khaos/">KHA OS</a>
-  </nav>
+<header>
+  <div class="nav">
+    <a class="logo" href="/">imbailn<span>_</span></a>
+    <div class="right">
+      <a href="/khaos/"><span style="color:var(--amber)">kha.os</span></a>
+      <a href="/khaos/gotta/">gotta</a>
+    </div>
+  </div>
 </header>
 
-<main>
+<main class="wrap">
   <section class="hero">
-    <h1>KHA OS — my operating system.</h1>
-    <p class="lede">The label I publish software under. Not a faceless brand — a signature.</p>
+<pre class="ascii" aria-label="An open notebook in ASCII art">
+        <span class="a">┌</span>───────────────────────────────<span class="a">┐</span>
+       <span class="a">│</span>  <span class="g">┌</span>─────────────────────────────<span class="g">┐</span>  <span class="a">│</span>
+      <span class="a">│</span>  <span class="g">│</span>  <span class="a">kha</span> <span class="a">·</span> <span class="a">os</span>  <span class="g">│</span>  <span class="a">│</span>  <span class="a">│</span>
+     <span class="a">│</span>  <span class="g">│</span>  <span class="g">──────────────────</span>  <span class="g">│</span>  <span class="a">│</span>
+    <span class="a">│</span>  <span class="g">│</span>  <span class="g">▸</span> calm defaults      <span class="g">│</span>  <span class="a">│</span>
+   <span class="a">│</span>  <span class="g">│</span>  <span class="g">▸</span> local-first        <span class="g">│</span>  <span class="a">│</span>
+  <span class="a">│</span>  <span class="g">│</span>  <span class="g">▸</span> small &amp; thoughtful  <span class="g">│</span>  <span class="a">│</span>
+ <span class="a">│</span>  <span class="g">└</span>─────────────────────────────<span class="g">┘</span>  <span class="a">│</span>
+<span class="a">│</span>                                 <span class="a">│</span>
+<span class="a">└</span>───────────────────────────────<span class="a">┘</span> <span class="blink">▌</span>
+</pre>
+    <div class="think">▚ the signature I publish software under · not a brand, a <span class="g">signature</span></div>
+    <h1>KHA OS —</h1>
+    <p class="lede">my <b>operating system</b>. The rules below.</p>
   </section>
 
-  <section>
-    <h2>The rules</h2>
-    <ul>
-      <li><strong>Calm defaults</strong> — notifications off until you want them; no streaks that guilt you; no dark patterns, ever.</li>
-      <li><strong>Local-first</strong> — your data lives on your device. No account, no cloud, no surveillance.</li>
-      <li><strong>Small and thoughtful</strong> — one app, one job, done properly. Tools that earn their place in your life.</li>
-    </ul>
-  </section>
+  <div class="rule"></div>
 
-  <section>
-    <h2>Apps</h2>
+  <div class="intro">
+    <div class="file">MANIFEST — the rules</div>
+    <p><strong>Not a faceless brand.</strong> A signature.</p>
+  </div>
+
+  <h2>$ cat rules.txt</h2>
+  <p class="hint">three rules, no exceptions</p>
+  <div class="cards">
     <div class="card">
-      <h3><a href="/khaos/gotta/">Gotta</a></h3>
-      <p><strong>Your notebook, superpowered.</strong> Track what matters, journal the rest. Lists, habits, time, and memories — one calm place.</p>
+      <div class="tag">rule 01</div>
+      <h3>calm defaults</h3>
+      <p>Notifications off until you want them · no streaks that guilt you · <strong>no dark patterns, ever.</strong></p>
     </div>
-  </section>
+    <div class="card">
+      <div class="tag">rule 02</div>
+      <h3>local-first</h3>
+      <p>Your data lives on your device. No account, no cloud, no surveillance.</p>
+    </div>
+    <div class="card">
+      <div class="tag">rule 03</div>
+      <h3>small &amp; thoughtful</h3>
+      <p>One app, one job, done properly. Tools that earn their place in your life.</p>
+    </div>
+  </div>
+
+  <h2>$ ls ~/apps/</h2>
+  <p class="hint">what's under this signature</p>
+  <div class="cards" style="grid-template-columns:1fr">
+    <div class="card">
+      <div class="tag">by KHA OS · now</div>
+      <h3><a href="/khaos/gotta/">gotta</a></h3>
+      <p>Your notebook, superpowered. Track what matters, journal the rest. Lists, habits, time and memories — one calm place.</p>
+      <span class="soon">→ coming oct 2026</span>
+    </div>
+  </div>
 </main>
 
 <footer>
-  <p>© KHA OS LLC · New York · <a href="mailto:hello@imbailn.dev">hello@imbailn.dev</a></p>
+  <div class="foot">
+    <span>© KHA OS LLC · New York</span>
+    <span><a href="mailto:hello@imbailn.dev">hello@imbailn.dev</a></span>
+    <span><a href="/khaos/">kha.os</a> · <a href="/khaos/gotta/">gotta</a></span>
+  </div>
 </footer>
 </body>
 </html>
